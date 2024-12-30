@@ -12,7 +12,7 @@ fi
 ALVO=$1
 TIPO=$2
 
-# Buscar arquivos no Google e salvar os links em um arquivo
+# Buscar arquivos no Google e salva os links em um arquivo
 echo "Buscando arquivos do tipo $TIPO no domínio $ALVO..."
 lynx --dump "https://google.com/search?&q=site:$ALVO+ext:$TIPO" | \
     grep ".$TIPO" | \
@@ -37,7 +37,7 @@ done
 echo "Analisando metadados dos arquivos baixados..."
 exiftool *.$TIPO
 
-# Limpeza opcional (descomente para excluir os arquivos baixados e a lista de links)
+# Limpeza opcional 
  rm -f *.$TIPO links.txt
 
 echo "Processo concluído."
