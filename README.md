@@ -4,9 +4,9 @@ Este script automatiza a busca, download e análise de arquivos hospedados em um
 ## Pré-requisitos
  as seguintes ferramentas devem ester instaladas:
 
-Lynx: Navegador em linha de comando usado para realizar buscas no Google.
-ExifTool: Utilitário para análise de metadados de arquivos.
-Wget: Ferramenta para download de arquivos via linha de comando.
+- Lynx: Navegador em linha de comando usado para realizar buscas no Google.
+- ExifTool: Utilitário para análise de metadados de arquivos.
+- Wget: Ferramenta para download de arquivos via linha de comando.
 
 ## Uso
 Execute o script fornecendo dois parâmetros obrigatórios:
