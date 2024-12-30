@@ -11,17 +11,17 @@ Este script automatiza a busca, download e análise de arquivos hospedados em um
 ## Uso
 Execute o script fornecendo dois parâmetros obrigatórios:
 
-Domínio alvo (exemplo: exemplo.com)
-Extensão do arquivo (exemplo: pdf, docx, jpg).
+**Domínio alvo** (exemplo: exemplo.com)
+**Extensão do arquivo** (exemplo: pdf, docx, jpg).
 
-## Comando:
+### Comando:
 
 ./script.sh <alvo> <tipo_de_arquivo>
 ## Exemplo:
 ./script.sh exemplo.com pdf
 
 ## Funcionamento
-Busca de Arquivos: Realiza uma pesquisa no Google por arquivos da extensão especificada dentro do domínio fornecido.
-Download: Salva os links encontrados e baixa os arquivos listados.
-Análise de Metadados: Extrai e exibe metadados dos arquivos baixados.
-Limpeza Opcional: Remove os arquivos baixados e a lista de links após a execução.
+- Busca de Arquivos: Realiza uma pesquisa no Google por arquivos da extensão especificada dentro do domínio fornecido.
+- Download: Salva os links encontrados e baixa os arquivos listados.
+- Análise de Metadados: Extrai e exibe metadados dos arquivos baixados.
+- Limpeza Opcional: Remove os arquivos baixados e a lista de links após a execução.
