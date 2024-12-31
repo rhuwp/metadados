@@ -16,7 +16,7 @@ Execute o script fornecendo dois parâmetros obrigatórios:
 
 ### Comando:
 
-./script.sh <alvo> <tipo_de_arquivo> <extensão_do_arquivo> 
+./script.sh <alvo> <extensão_do_arquivo> 
 
 ### Exemplo:
 
